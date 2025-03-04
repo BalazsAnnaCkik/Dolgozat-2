@@ -1,0 +1,69 @@
+A- Balázs Anna
+B- Bicskei Balázs
+
+A:git init
+git add .
+git remote add origin https://github.com/BalazsAnnaCkik/Dolgozat-2.git
+"elso valtozas"
+git commit -m "1"
+git push origin master
+
+B:
+git init
+git remote add origin https://github.com/BalazsAnnaCkik/Dolgozat-2.git
+git pull origin master
+"masodik valtozas"
+git commit -m "2"
+git push origin master
+
+A:git fetch
+git pull origin master
+git branch F
+git checkout F
+git branch
+"harmadik valtozas"
+git add .
+git commit -m "3"
+git push origin F
+
+B: negyedik valtozas
+git add .
+git commit -m "4"
+git push origin master
+git fetch
+git pull origin F
+git checkout F
+"otodik valtozas"
+git add .
+git commit -m "5"
+git push origin F
+
+A: TORLES VOLT
+git init
+git remote add origin https://github.com/BalazsAnnaCkik/Dolgozat-2.git
+git fetch
+git pull origin master
+git pull origin F
+git checkout master
+"hatodik valtozas"
+git add .
+git commit -m "6"
+git push origin master
+
+B:git fetch
+git checkout master
+git pull origin master
+git merge F
+accept both changes
+git add .
+git commit -m "7"
+git push origin master
+
+A:git fetch
+git pull origin master
+UTOLSO VALTOZAS
+git add .
+git commit -m "8"
+git push origin master
+
+ITT A VEGE FUSS EL VELE!!!!!
