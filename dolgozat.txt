@@ -2,3 +2,6 @@ elso valtozas
 masodik valtozas
 negyedik valtozas 
 hatodik valtozas
+masodik valtozas 
+harmadik valtozas
+otodik valtozas
