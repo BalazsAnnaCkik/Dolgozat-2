@@ -1,3 +1,4 @@
 elso valtozas
 masodik valtozas
 negyedik valtozas 
+hatodik valtozas
