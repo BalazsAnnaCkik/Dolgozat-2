@@ -1,3 +1,4 @@
 elso valtozas
 masodik valtozas 
 harmadik valtozas
+otodik valtozas
